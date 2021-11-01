@@ -1904,6 +1904,23 @@
     tslib "^2.0.0"
     yargs-parser "20.0.0"
 
+"@nrwl/tao@13.1.2":
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-13.1.2.tgz#80f381b5f6d17d7e4bf4f52bb2e572a5da9eaff2"
+  integrity sha512-OF/zWpj7pdlBHS1Mr6uk3mtz0QUWb4W3KqKxO3wjj2GtRDwSGb8XFC+VbsRTxh/w+hoEOut10tvQiqAuJtuLGA==
+  dependencies:
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fs-extra "^9.1.0"
+    jsonc-parser "3.0.0"
+    nx "13.1.2"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs-parser "20.0.0"
+
 "@nrwl/workspace@13.0.2":
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-13.0.2.tgz#90d970c2053ad69eca28b2664154f6fe522b8729"
@@ -7581,6 +7598,13 @@ nx@13.0.2:
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/nx/-/nx-13.0.2.tgz#257cdf7899dc46dec683814fcf28008db47849d6"
   integrity sha512-8P+UWM1q6gMNZwAcCABNMl4IpHqYqWbC2HdCXAL10Y3oXmkDk0KcCp70UVuiVPouj+zSGnbqn9hc+8TizVukGw==
+  dependencies:
+    "@nrwl/cli" "*"
+
+nx@13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-13.1.2.tgz#961e789432d3229748ff0133f9d537ea2e690244"
+  integrity sha512-zLJtPr/4OD4C/OgvSaqRtIhj9WvZzUJPBrgRxW6ho60TGfmSvzH5cB3MUcZq+FClL0DXzv9mCFTw5XqqesyuWA==
   dependencies:
     "@nrwl/cli" "*"
 
