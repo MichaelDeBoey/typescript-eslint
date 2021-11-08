@@ -1822,7 +1822,19 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@*", "@nrwl/cli@13.0.2":
+"@nrwl/cli@*", "@nrwl/cli@13.1.3":
+  version "13.1.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.1.3.tgz#c5d21ea5d878c8aa0438e52a2f39236bcd37085a"
+  integrity sha512-pwHMOy8MEKdPWf3qbTfSWt33tYq8p5mRE0RAdA9iXcxk7+2TZkU+ScVHZz4asmrZlsTC+UYJIzWJWTSCwaGL5A==
+  dependencies:
+    "@nrwl/tao" "13.1.3"
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    v8-compile-cache "2.3.0"
+    yargs "15.4.1"
+    yargs-parser "20.0.0"
+
+"@nrwl/cli@13.0.2":
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.0.2.tgz#4306ebe09214f9337d05ff8bf87c38d606cb5e46"
   integrity sha512-VUbkMxYDdMNZe3CP2AtQbSKyP1kwaebdJyCyQ4l7tsqcFyDAc+zDXbvM1MPYSsFi4DI5Sf11BEFMLfYxRLi6FA==
@@ -1897,6 +1909,23 @@
     fs-extra "^9.1.0"
     jsonc-parser "3.0.0"
     nx "13.0.2"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs-parser "20.0.0"
+
+"@nrwl/tao@13.1.3":
+  version "13.1.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-13.1.3.tgz#5a88029b0aa9dfd4bca0a86d3dde2b608c468b36"
+  integrity sha512-/IwJgSgCBD1SaF+n8RuXX2OxDAh8ut/+P8pMswjm8063ac30UlAHjQ4XTYyskLH8uoUmNi2hNaGgHUrkwt7tQA==
+  dependencies:
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fs-extra "^9.1.0"
+    jsonc-parser "3.0.0"
+    nx "13.1.3"
     rxjs "^6.5.4"
     rxjs-for-await "0.0.2"
     semver "7.3.4"
@@ -7581,6 +7610,13 @@ nx@13.0.2:
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/nx/-/nx-13.0.2.tgz#257cdf7899dc46dec683814fcf28008db47849d6"
   integrity sha512-8P+UWM1q6gMNZwAcCABNMl4IpHqYqWbC2HdCXAL10Y3oXmkDk0KcCp70UVuiVPouj+zSGnbqn9hc+8TizVukGw==
+  dependencies:
+    "@nrwl/cli" "*"
+
+nx@13.1.3:
+  version "13.1.3"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-13.1.3.tgz#0b2db9b5bc87a47fb3a90014d2b2abb44f568851"
+  integrity sha512-clM0NQhQKYkqcNz2E3uYRMLwhp2L/9dBhJhQi9XBX4IAyA2gWAomhRIlLm5Xxg3g4h1xwSpP3eJ5t89VikY8Pw==
   dependencies:
     "@nrwl/cli" "*"
 
