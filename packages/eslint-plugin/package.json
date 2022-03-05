@@ -59,7 +59,7 @@
     "@types/json-schema": "*",
     "@types/marked": "*",
     "@types/prettier": "*",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "json-schema": "*",
     "marked": "^3.0.7",
     "prettier": "*",
